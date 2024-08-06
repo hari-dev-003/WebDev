@@ -1,0 +1,182 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container-fluid a {
+ font-family: Roboto Slab;
+ /* font-size: 28px; */
+ text-transform: uppercase;
+}
+
+.nav-item:hover{
+    background-color: #fc0b44;
+    border-radius: 1rem;
+    color: black;
+    
+   
+}
+#navbarSupportedContent{
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+#navbarSupportedContent button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* 
+.song-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    width: 1400px;
+    height: 250px;
+    margin-left: 65px;
+     margin-top: 80px; 
+    justify-items: center;
+    align-items: center;
+
+} */
+ /* .container{
+    margin-left: 150px;
+ } */
+.songs{
+    width: 180px;
+    height: 210px;
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+
+}
+.songs:hover{
+    box-shadow: 0 0 10px white;
+    transform: scale(1.1);
+}
+.songs img{
+    width: 180px;
+    height: 180px;
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+}
+.heading{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.heading1{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.song-grid1,.song-grid2,.song-grid3{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 1400px;
+    height: 250px;
+    margin-left: 65px;
+    justify-items: center;
+    align-items: center;
+}
+/* .btn{
+    padding:10px;
+    margin-left:50px;
+} */
+
+#sign-up{
+    margin-top: 10%;
+    text-align: center;
+}
+/* #signup-page{
+    color: white;
+} */
+#sign-up input{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#sign-up button{
+    border-radius: 2rem;
+    width: 100px;
+    height: 30px;
+
+}
+#sign-up button:hover{
+    transform: scale(1.2);
+}
+#stay-tuned{
+    /* margin-left: 700px; */
+    background-color: #fc0b44;
+    color: white;
+    
+}
+#stay-tuned:hover{
+    background-color: #fc0b44;
+    color: black;
+}
+
+.artist img{
+    border-radius: 30px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: large;
+    margin-bottom: -50px;
+
+}
+footer i:hover{
+   box-shadow: 0 0 30px #fc0b44;
+   border-radius: 10px;
+}
+.artist{
+    display: flex;
+    width: 1350px;
+    height: 250px;
+    /* background-color: antiquewhite; */
+    gap: 65px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.artist-img{
+    width: 210px;
+    height: 210px;
+    border-radius: 20rem;
+    
+    text-align: center;
+    font-family: Playfair Display;
+  
+}
+.artist-heading{
+    margin-left: 130px;
+}
+.artist-img img{
+    width: 210px;
+    height: 210px;
+    border-radius: 20rem;
+  
+}
+
+.artist-img:hover{
+    box-shadow: 0 0 10px;
+}
+#Artist{
+    border-radius: 20rem;
+
+}
+
+#Artist img{
+    width: 210px;
+    height: 210px;
+    border-radius: 20rem;
+}
+
+#google:hover{
+    border: 2px solid white;
+    border-radius: 2rem;
+    margin-left: 80px;
+}
